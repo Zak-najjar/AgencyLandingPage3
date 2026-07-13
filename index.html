@@ -3,16 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>صفحة خبوط لشركة</title>
+  <title>صفحة هبوط لشركة</title>
   <meta name="author" content="Zakarea najjar">
   <meta name="description" content="صفحة هبوط لشركة">
   <link rel="stylesheet" href="./assest/Bootstrap/css/bootstrap.rtl.min.css">
-  <link rel="stylesheet" href="./assest/FontAwesome/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-  
-<script src="./assest/Bootstrap/js/bootstrap.min.js"></script>
-<script src="./js/script.js"></script>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true">
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./imgs/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+          <li class="nav-item">
+            <a class="nav-link active"  aria-current="page" href="#services"  >خدمات الشركة</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="#gallery" >المشاريع السابقة</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#statistics" >احصائيات الشركة</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">تواصل معنا</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="overlay">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-contant">
+              <h2>وكالتنا متخصصة فى برمجة وتصميم المواقع الألكترونية وتطبيقات الم</h2>
+              <a href="#gallery">تصفح أعمالنا</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-contant">
+              <h2>وكالتنا متخصصة فى برمجة وتصميم المواقع الألكترونية وتطبيقات الم</h2>
+              <a href="#contacts">تواصل معنا</a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <i class="fa-2x fa-solid fa-angle-right"></i>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <i class="fa-2x fa-solid fa-angle-left"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="services" id="services" style="height: 1500px; padding-top: 300px;"></section>
+    <section class="gallery" id="gallery" style="height: 1500px; padding-top: 300px;"></section>
+    <section class="statistics" id="statistics" style="height: 1500px; padding-top: 300px;"></section>
+    <section class="contacts" id="contacts" style="height: 1500px; padding-top: 300px;"></section>
+
+
+  </main>
+  <footer></footer>
+  <script src="./assest/Bootstrap/js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>

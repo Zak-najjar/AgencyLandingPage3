@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: Cairo;
+  z-index: 15;
+}
+
+nav .navbar .navbar-brand img {
+  width: 80%;
+}
+
+nav .navbar-nav .nav-item a.nav-link  {
+  font-size: 16px;
+  line-height: 48px;
+  color: #e8e8e8;
+  padding: 0px 16px;
+  margin-right: 40px;
+  transition: all 0.3s ease;
+}
+
+nav .nav-item a.nav-link:hover,
+nav .nav-item a.nav-link.active  {
+  background-color: #e8e8e8;
+  color: #16aeca;
+}
+nav.navbar.noTranspparent {
+  transition: all 0.5s 0.2s ease-in-out;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+nav.navbar.noTranspparent .nav-item a.nav-link {
+  color: #16aeca;
+}
+nav.navbar.noTranspparent .nav-item a.nav-link:hover,
+nav.navbar.noTranspparent  .nav-item a.nav-link.active  {
+  background-color: #16aeca;
+  color: #dae413;
+}
+nav.navbar.noTranspparent button.navbar-toggler {
+  color: #16aeca;
+}
+header {
+  background-image: url(../imgs/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+header .overlay {
+  background: linear-gradient(to right, rgba(45, 177, 181, 0.8), rgba(197,203,49));
+  min-height: 100vh;
+}
+
+
+header .overlay .carousel-item {
+  min-height: 100vh;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+header .overlay .carousel-item .carousel-contant {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  left: 10%;
+  text-align: center;
+  z-index: 10;
+
+}
+
+
+header .overlay .carousel-item .carousel-contant h2  {
+  font-size: 40px;
+  line-height: 53px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+header .overlay .carousel-item .carousel-contant a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 48px;
+  color: #ffffff;
+  background-color: #16aeca;
+  padding: 15px 40px;
+  border-radius: 25px;
+}
