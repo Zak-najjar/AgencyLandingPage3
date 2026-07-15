@@ -194,7 +194,7 @@ section.gallery .gallery-overlay {
   left: 0;
   padding: 5% 10%;
   opacity: 0;
-  margin-top: -100vh;
+  margin-top: -1000vh;
   transition: all 1s ease;
 }
 
@@ -355,5 +355,90 @@ section.contacts .contact-text form button {
 
 section.contacts .contact-text form button:hover {
   background-color: #107f92;
+}
 
+footer .top-footer {
+  background-color: #171717;
+  padding: 75px 0;
+}
+
+footer .top-footer h5 {
+  font-size: 18px;
+  line-height: 43px;
+  color: #85ecff;
+  position: relative;
+}
+
+footer .top-footer h5::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #5c5c5c;
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+}
+
+
+footer .top-footer .about-us p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #919191;
+  margin: 30px 0 60px;
+
+} 
+
+footer .top-footer .about-us li.list-inline-item a {
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+  background-color: #333333;
+  display: block;
+  text-align: center;
+  line-height: 35px;
+  font-size: 15px;
+  color: #acacac;
+  transition: all 0.5s ease;
+}
+
+footer .top-footer .about-us li.list-inline-item a:hover {
+  background-color: #16aeca;
+  color: #ffffff;
+}
+
+
+footer .top-footer .contact-us ul.contact-list {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+footer .top-footer .contact-us ul.contact-list li i {
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  background-color: #282828;
+  line-height: 30px;
+  font-size: 15px;
+  color: #bababa;
+  margin: 0 0 40px 30px;
+  text-align: center;
+}
+
+
+footer .top-footer .contact-us ul.contact-list li {
+
+  font-size: 18px;
+  line-height: 22px;
+  color: #5e5e5e;
+}
+
+
+footer .copy-right {
+  background-color: #111111;
+  padding: 35px 0;
+  font-size: 15px;
+  line-height: 22px;
+  color: #919191;
+  text-align: center;
 }
