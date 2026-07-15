@@ -286,4 +286,74 @@ section.statistics .overlay span.counter {
   color: #85ecff;
 }
 
+section.contacts {
+  padding: 100px 0 60px;
+}
+section.contacts .map iframe {
+  height: 200px;
+  width: 90%;
+}
+section.contacts .map-address h4 {
+  font-size: 24px;
+  line-height: 22px;
+  color: #181c1c;
+  margin-bottom: 35px;
+}
 
+section.contacts .map-address ul {
+  list-style: none;
+  padding: 0;
+}
+section.contacts .map-address ul li{
+  font-size: 18px;
+  line-height: 22px;
+  color: #16aeca;
+  margin-bottom: 25px;
+}
+section.contacts .map-address ul li address{
+  display: inline;
+}
+
+section.contacts .contact-text h4 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 22px;
+  color: #181c1c;
+  font-weight: bold;
+  margin: 70px auto 30px;
+}
+
+section.contacts .contact-text form {
+  width: 60%;
+  margin: auto;
+}
+
+section.contacts .contact-text form input,
+section.contacts .contact-text form textarea {
+  background-color: #f7f7f7;
+  color: #5c5c5c;
+  border: 1px solid #ececec;
+  text-align: right;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+section.contacts .contact-text form button {
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  width: auto;
+  background-color: #16aeca;
+  border: 0;
+  border-radius: 2px;
+  padding: 15px 30px;
+  margin-right: 15px;
+  transition: all 0.5s ease;
+}
+
+section.contacts .contact-text form button:hover {
+  background-color: #107f92;
+
+}
